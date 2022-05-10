@@ -1,0 +1,143 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img id="Logo" src="./Assets/Logo/LOGO MAHALAXMI.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i onclick="changeToggle(this)" class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" id="setWidth" aria-labelledby="dropdownMenuButton">
+                            <div class="dropdown dropend">
+                                <!-- <span class="flex-sm-12"> -->
+                                <a class="nav-link d-inline-block" href="Cable-&-Internet.html">Cable & Internet
+                                    Services</a>
+                                <!-- <a class="dropdown-item dropdown-toggle d-inline-block" href="#" id="dropdown-layouts4"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> -->
+                                <!-- <div class="dropdown-menu" aria-labelledby="dropdown-layouts">
+                                    <a class="nav-link dropdown-item" href="#">Mira Road Bhayander</a>
+                                </div> -->
+                                <!-- </span> -->
+                            </div>
+                            <div class="dropdown dropend">
+                                <!-- <span class="flex-sm-12"> -->
+                                <!-- <a class="nav-link d-inline-block" href="#">Transport</a> -->
+                                <a class="dropdown-item nav-link dropdown-toggle" href="#" id="dropdown-layouts"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Transport</a>
+                                <div class="dropdown-menu" id="setwidth_one" aria-labelledby="dropdown-layouts">
+                                    <a class="nav-link dropdown-item" href="Water-Tanker.html">Water Tanker</a>
+                                    <div class="dropdown dropend" id="setwidth_one">
+                                        <!-- <span class="flex-sm-12"> -->
+                                        <!-- <a class="nav-link d-inline-block" href="#">Bus Transport</a> -->
+                                        <a class="nav-link d-inline-block" href="Bus-Transport.html">Bus Transport</a>
+                                        <!-- <a class="dropdown-item dropdown-toggle d-inline-block" href="#"
+                                            id="dropdown-layouts4" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false"></a> -->
+                                        <!-- <div class="dropdown-menu right-sm" aria-labelledby="dropdown-layouts">
+                                            <a class="nav-link dropdown-item" href="#">Private</a>
+                                            <a class="nav-link dropdown-item" href="#">Public</a>
+                                        </div> -->
+                                        <!-- </span> -->
+                                    </div>
+                                </div>
+                                <!-- </span> -->
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="dropdown-toggle nav-link" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Property
+                        </a>
+                        <div class="dropdown-menu" id="setwidth2" aria-labelledby="dropdownMenuButton">
+                            <div class="dropdown dropend">
+                                <!-- <span class="flex-sm-12"> -->
+                                <a class="nav-link d-inline-block" href="#">Ongoing</a>
+                                <a class="dropdown-item dropdown-toggle d-inline-block" href="#" id="dropdown-layouts"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                <!-- </div> -->
+                                <div class="dropdown-menu" aria-labelledby="dropdown-layouts">
+                                    <a class="nav-link dropdown-item" href="naigaon.html">Naigaon Project</a>
+                                </div>
+                            </div>
+                            <div class="dropdown dropend">
+                                <!-- <span class="flex-sm-12"> -->
+                                <a class="nav-link d-inline-block" href="#">Completed</a>
+                                <a class="dropdown-item dropdown-toggle d-inline-block" href="#" id="dropdown-layouts"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-layouts">
+                                    <a class="nav-link dropdown-item" href="#">Bhayander Project</a>
+                                </div>
+                                <!-- </span> -->
+                            </div>
+                            <div class="dropdown dropend">
+                                <!-- <span class="flex-sm-12"> -->
+                                <a class="nav-link d-inline-block" href="#">Upcoming</a>
+                                <a class="dropdown-item dropdown-toggle d-inline-block" href="#" id="dropdown-layouts"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-layouts">
+                                    <a class="nav-link dropdown-item" href="#">Ambernath Project</a>
+                                </div>
+                                <!-- </span> -->
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Press Release</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Schedule a Demo <span><i
+                            class="far fa-comment-dots"></i></span></button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Schedule a Demo</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <input type="text" placeholder="Name" name="" id=""> <br>
+                    <input class="mt-3" placeholder="Email" type="email"> <br>
+                    <input class="mt-3" type="number" placeholder="Mobile No." name="" id=""><br>
+                    <textarea class="mt-3" placeholder="Enter Your Message...." name="" id="" cols="30"
+                        rows="3"></textarea>
+                    <div class="Btn1">
+                        <a href="#"><button>Place an Enquiry&nbsp;<span><i
+                                        class="fas fa-arrow-right"></i></span></button></a>
+                        <div id="circle"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="./Assets/JS/index.js"></script>
