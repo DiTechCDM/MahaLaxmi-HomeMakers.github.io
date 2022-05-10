@@ -2028,15 +2028,15 @@ button:hover span i {
 #transport_Hero_Banner {
     background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.55) 100%), url('../Images/traffic-vehicle-urban-reflections-city.jpg');
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.55))), url('../Images/traffic-vehicle-urban-reflections-city.jpg');
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.55) 100%), url('../Images/bus.png');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.55) 100%), url('../Images/bus1.png');
     background-size: cover;
     background-attachment: fixed;
-    min-height: 680px;
+    min-height: 550px;
     background-position: center center;
     position: relative;
     top: 0;
 }
-
+/* 
 #transport_Hero_Banner>.linking {
     position: absolute;
     top: 13.92%;
@@ -2049,7 +2049,7 @@ button:hover span i {
     #transport_Hero_Banner>.linking{
         top: 9.92%;
     }
-}
+} */
 
 #Icon__scroll {
     position: absolute;
