@@ -799,7 +799,7 @@ button:hover span i {
 #water_Hero_Banner {
     background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.55) 100%), url('../Images/Water (2).jpg');
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.55))), url('../Images/Water (2).jpg');
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.55) 100%), url('../Images/Water (2).jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.55) 100%), url('../Images/website banner 3.jpg');
     background-size: cover;
     background-attachment: fixed;
     min-height: 560px;
@@ -1583,13 +1583,17 @@ form textarea {
 #cable_Hero_Banner {
     background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.55) 100%), url('../Images/Cable & Internet Services.jpg');
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.55))), url('../Images/Cable & Internet Services.jpg');
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.55) 100%), url('../Images/Cable & Internet Services.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.55) 100%), url('../Images/website banner 1.jpg');
     background-size: cover;
     background-attachment: fixed;
-    min-height: 560px;
+    min-height: 100vh;
     background-position: center;
     position: relative;
     top: 0;
+}
+
+#cable_Hero_Banner>.linking{
+    top: 94px;
 }
 
 #Icon__scroll {
@@ -1818,13 +1822,25 @@ button:hover span i {
     padding-bottom: 0.20rem;
 }
 
+@media screen and (max-width: 1080px) {
+    #cable_Hero_Banner>.linking {
+        top: 148px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .cable-banner p br {
         display: none;
     }
+    #cable_Hero_Banner{
+        background-position: 90%;
+    }
+    #cable_Hero_Banner>.linking {
+        top: 94px;
+    }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 576px) {
     .underline-banner {
         border: none;
     }
@@ -1835,6 +1851,9 @@ button:hover span i {
 
     .cable-banner {
         top: 55%;
+    }
+    #cable_Hero_Banner>.linking {
+        top: 70px;
     }
 }
 
