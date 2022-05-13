@@ -337,7 +337,7 @@
             <div class="video-grid-row">
                 <div>
                     <div id="player-overlay">
-                        <video autoplay='true' controls loop>
+                        <video controls loop>
                             <source src="./Assets/Images/video.mp4" />
                             <source src="./Assets/Images/video.mp4" type='video/webm; codecs="vp8, vorbis"' />
                             <source src="./Assets/Images/video.mp4" type='video/ogg; codecs="theora, vorbis"' />
@@ -363,6 +363,38 @@
             </div>
         </div>
     </section>
+
+    <section class="exclusive-video">
+        <button data-bs-toggle="modal" data-bs-target="#exampleModal8">EXLUSIVE VIDEO</button>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+
+    </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" id="flex_video">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="player-overlay">
+                        <video controls id="video" autoplay class="video_travel">
+                            <source src="./Assets/Images/WhatsApp Video 2022-05-13 at 1.20.01 PM.mp4" />
+                            <source src="./Assets/Images/WhatsApp Video 2022-05-13 at 1.20.01 PM.mp4"
+                                type='video/webm; codecs="vp8, vorbis"' />
+                            <source src="./Assets/Images/WhatsApp Video 2022-05-13 at 1.20.01 PM.mp4"
+                                type='video/ogg; codecs="theora, vorbis"' />
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="image-viewer">
         <span class="close">&times;</span>
@@ -762,6 +794,10 @@
             $.fn.Ripple_Button = jQueryPlugin("Ripple_Button", Ripple_Button);
             $("[data-ripple]").Ripple_Button();
         })();
+
+        $(window).on('load', function () {
+            $('#exampleModal8').modal('show');
+        });
     </script>
 </body>
 
