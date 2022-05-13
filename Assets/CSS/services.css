@@ -808,6 +808,46 @@ button:hover span i {
     top: 0;
 }
 
+/* #player-overlay{
+    position: relative;
+    top: 0;
+} */
+
+#player-overlay>.video_travel {
+    top: 92px;
+    right: 0;
+    width: 250px;
+    height: 50%;
+    z-index: 999;
+    max-width: 250px;
+}
+
+#flex_video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exclusive-video {
+    position: fixed;
+    right: -55px;
+    top: 50%;
+    transform: rotate(90deg);
+}
+
+.exclusive-video>button{
+    background-color: #834409;
+    border: none;
+    padding: 5px 15px;
+}
+
+@media screen and (max-width: 640px) {
+    #flex_video {
+        width: 95%;
+        padding: 20px;
+    }
+}
+
 #Icon__scroll {
     position: absolute;
     bottom: 50px;
@@ -1592,7 +1632,7 @@ form textarea {
     top: 0;
 }
 
-#cable_Hero_Banner>.linking{
+#cable_Hero_Banner>.linking {
     top: 94px;
 }
 
@@ -1832,9 +1872,11 @@ button:hover span i {
     .cable-banner p br {
         display: none;
     }
-    #cable_Hero_Banner{
+
+    #cable_Hero_Banner {
         background-position: 90%;
     }
+
     #cable_Hero_Banner>.linking {
         top: 94px;
     }
@@ -1852,6 +1894,7 @@ button:hover span i {
     .cable-banner {
         top: 55%;
     }
+
     #cable_Hero_Banner>.linking {
         top: 70px;
     }
@@ -2055,6 +2098,7 @@ button:hover span i {
     position: relative;
     top: 0;
 }
+
 /* 
 #transport_Hero_Banner>.linking {
     position: absolute;
